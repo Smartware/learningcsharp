@@ -14,7 +14,6 @@ namespace LearningCSharp.Cmd.Types
             x = 34;
             int y = 67; // Initialization
 
-            Console.WriteLine("{0} + {1} = {2} ", x, y, (x + y));
             Console.WriteLine($"{x} + {y} = {x + y}");
         }
     }
