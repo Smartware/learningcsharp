@@ -16,6 +16,9 @@ namespace LearningCSharp.Cmd.Types
 
             Console.WriteLine("{0} + {1} = {2} ", x, y, (x + y));
             Console.WriteLine($"{x} + {y} = {x + y}");
+
+
+
         }
     }
 }
