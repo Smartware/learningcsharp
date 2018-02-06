@@ -10,6 +10,12 @@ namespace LearningCSharp.Cmd.Types
     {
         public static void Main()
         {
+            Int32 x; // declaration
+            x = 34;
+            int y = 67; // Initialization
+
+            Console.WriteLine("{0} + {1} = {2} ", x, y, (x + y));
+            Console.WriteLine($"{x} + {y} = {x + y}");
         }
     }
 }
