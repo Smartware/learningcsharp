@@ -19,6 +19,10 @@ namespace LearningCSharp.Cmd.Types
             Int64 a = 89;
             long b = a;
 
+
+            char d = '\t';
+            Char e = d;
+
             Console.WriteLine($"{x} + {y} = {x + y}");
         }
     }
