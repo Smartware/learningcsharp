@@ -32,11 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LearningCSharp.Cmd.Series2.Generics.Tester</StartupObject>
+    <StartupObject>LearningCSharp.Cmd.Series3.Delegates.Tester</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -78,6 +79,9 @@
     <Compile Include="Series2\OOP\Vehicle.cs" />
     <Compile Include="Series2\Product.cs" />
     <Compile Include="Series2\Tester.cs" />
+    <Compile Include="Series3\Delegates\ProductManager.cs" />
+    <Compile Include="Series3\Delegates\StaffManager.cs" />
+    <Compile Include="Series3\Delegates\Tester.cs" />
     <Compile Include="Types\Tester.cs" />
   </ItemGroup>
   <ItemGroup>
