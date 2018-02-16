@@ -32,11 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LearningCSharp.Cmd.Types.Tester</StartupObject>
+    <StartupObject>LearningCSharp.Cmd.Series2.Generics.Tester</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,10 +47,42 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Series2\AnotherType.cs" />
+    <Compile Include="Series2\Classes.cs" />
+    <Compile Include="Series2\Classes\Algebra.cs" />
+    <Compile Include="Series2\Classes\Caculus.cs" />
+    <Compile Include="Series2\Classes\Math.cs" />
+    <Compile Include="Series2\Classes\Product.cs" />
+    <Compile Include="Series2\Classes\Tester.cs" />
+    <Compile Include="Series2\ConditionalStatement.cs" />
+    <Compile Include="Series2\Generics\Arithmentic.cs" />
+    <Compile Include="Series2\Generics\Customer.cs" />
+    <Compile Include="Series2\Generics\DbManager.cs" />
+    <Compile Include="Series2\Generics\IDbManager.cs" />
+    <Compile Include="Series2\Generics\People.cs" />
+    <Compile Include="Series2\Generics\Point.cs" />
+    <Compile Include="Series2\Generics\Staff.cs" />
+    <Compile Include="Series2\Generics\Tester.cs" />
+    <Compile Include="Series2\GetSet\Product.cs" />
+    <Compile Include="Series2\GetSet\Tester.cs" />
+    <Compile Include="Series2\Interfaces\Box.cs" />
+    <Compile Include="Series2\Interfaces\DropBox.cs" />
+    <Compile Include="Series2\Interfaces\ICompressible.cs" />
+    <Compile Include="Series2\Interfaces\IStorable.cs" />
+    <Compile Include="Series2\Interfaces\OneDrive.cs" />
+    <Compile Include="Series2\Interfaces\Tester.cs" />
+    <Compile Include="Series2\OOP\Car.cs" />
+    <Compile Include="Series2\OOP\Motorcycle.cs" />
+    <Compile Include="Series2\OOP\Tester.cs" />
+    <Compile Include="Series2\OOP\Truck.cs" />
+    <Compile Include="Series2\OOP\Vehicle.cs" />
+    <Compile Include="Series2\Product.cs" />
+    <Compile Include="Series2\Tester.cs" />
     <Compile Include="Types\Tester.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
