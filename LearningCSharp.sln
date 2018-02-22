@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27130.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCSharp.Cmd", "LearningCSharp.Cmd\LearningCSharp.Cmd.csproj", "{50DB368D-AA96-418F-B680-422466BA21F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCSharp.Topics", "LearningCSharp.Topics\LearningCSharp.Topics.csproj", "{E9ABD1A5-57E9-428D-A37D-B251959335AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week 6", "Week 6", "{DAFF1AE3-40CE-45E3-B9ED-D55942A661ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week 7", "Week 7", "{CE2FA46D-F351-4429-8937-549821E6DA65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{50DB368D-AA96-418F-B680-422466BA21F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50DB368D-AA96-418F-B680-422466BA21F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50DB368D-AA96-418F-B680-422466BA21F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9ABD1A5-57E9-428D-A37D-B251959335AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9ABD1A5-57E9-428D-A37D-B251959335AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9ABD1A5-57E9-428D-A37D-B251959335AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9ABD1A5-57E9-428D-A37D-B251959335AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50DB368D-AA96-418F-B680-422466BA21F8} = {DAFF1AE3-40CE-45E3-B9ED-D55942A661ED}
+		{E9ABD1A5-57E9-428D-A37D-B251959335AD} = {DAFF1AE3-40CE-45E3-B9ED-D55942A661ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4E94EDB-6E19-430D-95D1-376F90B63227}
