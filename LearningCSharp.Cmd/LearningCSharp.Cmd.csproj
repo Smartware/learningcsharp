@@ -47,6 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Excercise2\Tester.cs" />
+    <Compile Include="Excercise2\try1\Animal.cs" />
+    <Compile Include="Excercise2\try1\Cat.cs" />
+    <Compile Include="Excercise2\try1\Dog.cs" />
+    <Compile Include="Excercise2\try2\Dog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Series2\AnotherType.cs" />
     <Compile Include="Series2\Classes.cs" />
@@ -79,6 +84,7 @@
     <Compile Include="Series2\OOP\Vehicle.cs" />
     <Compile Include="Series2\Product.cs" />
     <Compile Include="Series2\Tester.cs" />
+    <Compile Include="Series3\DelegateEx\Tester.cs" />
     <Compile Include="Series3\Delegates\ProductManager.cs" />
     <Compile Include="Series3\Delegates\StaffManager.cs" />
     <Compile Include="Series3\Delegates\Tester.cs" />
@@ -91,6 +97,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\LearningCSharp.Topics\LearningCSharp.Topics.csproj">
+      <Project>{e9abd1a5-57e9-428d-a37d-b251959335ad}</Project>
+      <Name>LearningCSharp.Topics</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
