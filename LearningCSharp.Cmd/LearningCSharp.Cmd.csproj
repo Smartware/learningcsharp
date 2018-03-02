@@ -90,6 +90,9 @@
     <Compile Include="Series3\Delegates\Tester.cs" />
     <Compile Include="Series3\ExtensionPlus\Excercise.cs" />
     <Compile Include="Series3\ExtensionPlus\Program.cs" />
+    <Compile Include="Series4\Excercise\Category.cs" />
+    <Compile Include="Series4\Excercise\Inventory.cs" />
+    <Compile Include="Series4\Excercise\InventoryManager.cs" />
     <Compile Include="Series4\LINQPlus\Tester.cs" />
     <Compile Include="Series4\LINQPlus\Tester1.cs" />
     <Compile Include="Series4\LINQ\Program.cs" />
