@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LearningCSharp.Cmd.Series3.Delegates.Tester</StartupObject>
+    <StartupObject>LearningCSharp.Cmd.Series4.LINQPlus.Tester1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Excercise2\Tester.cs" />
+    <Compile Include="Excercise2\try1\Animal.cs" />
+    <Compile Include="Excercise2\try1\Cat.cs" />
+    <Compile Include="Excercise2\try1\Dog.cs" />
+    <Compile Include="Excercise2\try2\Dog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Series2\AnotherType.cs" />
     <Compile Include="Series2\Classes.cs" />
@@ -79,14 +84,26 @@
     <Compile Include="Series2\OOP\Vehicle.cs" />
     <Compile Include="Series2\Product.cs" />
     <Compile Include="Series2\Tester.cs" />
+    <Compile Include="Series3\DelegateEx\Tester.cs" />
     <Compile Include="Series3\Delegates\ProductManager.cs" />
     <Compile Include="Series3\Delegates\StaffManager.cs" />
     <Compile Include="Series3\Delegates\Tester.cs" />
+    <Compile Include="Series3\ExtensionPlus\Excercise.cs" />
+    <Compile Include="Series3\ExtensionPlus\Program.cs" />
+    <Compile Include="Series4\LINQPlus\Tester.cs" />
+    <Compile Include="Series4\LINQPlus\Tester1.cs" />
+    <Compile Include="Series4\LINQ\Program.cs" />
+    <Compile Include="Series4\LINQ\Tester.cs" />
     <Compile Include="Types\Tester.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\LearningCSharp.Topics\LearningCSharp.Topics.csproj">
+      <Project>{e9abd1a5-57e9-428d-a37d-b251959335ad}</Project>
+      <Name>LearningCSharp.Topics</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
