@@ -41,7 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Delegates\Shape.cs" />
+    <Compile Include="Domains\Category.cs" />
+    <Compile Include="Domains\Product.cs" />
     <Compile Include="Enumeration\People.cs" />
+    <Compile Include="LINQ\CollectionManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TryException\MyCustomEx.cs" />
   </ItemGroup>

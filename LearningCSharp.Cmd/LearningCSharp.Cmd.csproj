@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LearningCSharp.Cmd.Series4.LINQ.Tester</StartupObject>
+    <StartupObject>LearningCSharp.Cmd.Series4.LINQPlus.Tester1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -90,6 +90,8 @@
     <Compile Include="Series3\Delegates\Tester.cs" />
     <Compile Include="Series3\ExtensionPlus\Excercise.cs" />
     <Compile Include="Series3\ExtensionPlus\Program.cs" />
+    <Compile Include="Series4\LINQPlus\Tester.cs" />
+    <Compile Include="Series4\LINQPlus\Tester1.cs" />
     <Compile Include="Series4\LINQ\Program.cs" />
     <Compile Include="Series4\LINQ\Tester.cs" />
     <Compile Include="Types\Tester.cs" />
