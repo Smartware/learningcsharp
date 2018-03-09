@@ -33,7 +33,7 @@ namespace LearningCSharp.Cmd.Series4.Excercise
         }
         public static IEnumerable<Inventory> GetInventories()
         {
-            List<Inventory> inventories = new List<Inventory>()
+            Inventory[] inventories = new Inventory[3]
             {
 
                 new Inventory()
@@ -58,7 +58,7 @@ namespace LearningCSharp.Cmd.Series4.Excercise
                 }
             };
 
-            return inventories;
+            return inventories.AsEnumerable();
 
         }
 

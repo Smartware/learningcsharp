@@ -32,9 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LearningCSharp.Cmd.Series4.LINQPlus.Tester1</StartupObject>
+    <StartupObject>LearningCSharp.Cmd.Series5.Tester</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -97,10 +100,12 @@
     <Compile Include="Series4\LINQPlus\Tester1.cs" />
     <Compile Include="Series4\LINQ\Program.cs" />
     <Compile Include="Series4\LINQ\Tester.cs" />
+    <Compile Include="Series5\Tester.cs" />
     <Compile Include="Types\Tester.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LearningCSharp.Topics\LearningCSharp.Topics.csproj">
