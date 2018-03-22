@@ -30,10 +30,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,15 +53,44 @@
     <Compile Include="Delegates\Shape.cs" />
     <Compile Include="Domains\Category.cs" />
     <Compile Include="Domains\Product.cs" />
+    <Compile Include="EF\Maps\StudentMap.cs" />
     <Compile Include="EF\Sample\ProductManager.cs" />
+    <Compile Include="EF\UniversityDbContext.cs" />
     <Compile Include="Enumeration\People.cs" />
     <Compile Include="LINQ\CollectionManager.cs" />
+    <Compile Include="Migrations\201803200925485_Initial.cs" />
+    <Compile Include="Migrations\201803200925485_Initial.Designer.cs">
+      <DependentUpon>201803200925485_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803201000167_ContactModified.cs" />
+    <Compile Include="Migrations\201803201000167_ContactModified.Designer.cs">
+      <DependentUpon>201803201000167_ContactModified.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="MoreEF\Models\Address.cs" />
+    <Compile Include="MoreEF\Models\BaseEntity.cs" />
+    <Compile Include="MoreEF\Models\Contact.cs" />
+    <Compile Include="MoreEF\Models\Map\AddressMap.cs" />
+    <Compile Include="MoreEF\Models\Map\ContactMap.cs" />
+    <Compile Include="MoreEF\Models\Message.cs" />
+    <Compile Include="MoreEF\PhoneBookDbContext.cs" />
+    <Compile Include="MoreEF\PhoneBookDbInitializer.cs" />
+    <Compile Include="MoreEF\Repository\EFRepository.cs" />
+    <Compile Include="MoreEF\Repository\IEFRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TryException\MyCustomEx.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201803200925485_Initial.resx">
+      <DependentUpon>201803200925485_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803201000167_ContactModified.resx">
+      <DependentUpon>201803201000167_ContactModified.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
