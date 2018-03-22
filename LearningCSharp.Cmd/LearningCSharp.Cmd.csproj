@@ -47,7 +47,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LearningCSharp.Cmd.Series5.Tester4</StartupObject>
+    <StartupObject>LearningCSharp.Cmd.Series5.Tester5</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -126,6 +126,7 @@
     <Compile Include="Series5\Tester2.cs" />
     <Compile Include="Series5\Tester3.cs" />
     <Compile Include="Series5\Tester4.cs" />
+    <Compile Include="Series5\Tester5.cs" />
     <Compile Include="Types\Tester.cs" />
   </ItemGroup>
   <ItemGroup>

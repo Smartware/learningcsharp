@@ -72,7 +72,11 @@
     <Compile Include="MoreEF\Models\Contact.cs" />
     <Compile Include="MoreEF\Models\Map\AddressMap.cs" />
     <Compile Include="MoreEF\Models\Map\ContactMap.cs" />
+    <Compile Include="MoreEF\Models\Message.cs" />
     <Compile Include="MoreEF\PhoneBookDbContext.cs" />
+    <Compile Include="MoreEF\PhoneBookDbInitializer.cs" />
+    <Compile Include="MoreEF\Repository\EFRepository.cs" />
+    <Compile Include="MoreEF\Repository\IEFRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TryException\MyCustomEx.cs" />
   </ItemGroup>

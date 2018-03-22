@@ -1,5 +1,6 @@
 namespace LearningCSharp.Topics.Migrations
 {
+    using LearningCSharp.Topics.MoreEF.Models;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -18,6 +19,15 @@ namespace LearningCSharp.Topics.Migrations
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
+
+
+            context.Set<Contact>().AddOrUpdate(c => c.FullName, new Contact()
+            {
+                MobileNo = "08062066850",
+                FullName = "Prolifik Lexzy"
+            });
+
+            context.SaveChanges();
         }
     }
 }

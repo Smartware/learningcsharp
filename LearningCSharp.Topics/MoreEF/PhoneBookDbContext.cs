@@ -12,6 +12,7 @@ namespace LearningCSharp.Topics.MoreEF
     {
         public PhoneBookDbContext() : base("PhoneBookDbContext")
         {
+            Database.SetInitializer(new PhoneBookDbInitializer());
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
